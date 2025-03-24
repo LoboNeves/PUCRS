@@ -6,7 +6,7 @@ COPY package.json .
 
 RUN npm install
 
-COPY app/ .
+COPY 03-DevopsBasico/app .
 
 EXPOSE 3000
 
