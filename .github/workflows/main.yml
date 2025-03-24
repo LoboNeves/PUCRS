@@ -27,4 +27,7 @@ jobs:
         run: |
           IMAGE_TAG=${{ steps.set_tag.outputs.image_tag }}
           echo "Testando a imagem com a tag: $IMAGE_TAG"
-          docker run $IMAGE_TAG
+          docker run -d --name my-container -p 3000:3000 $IMAGE_TAG
+          sleep 5
+          docker logs my-container
+          docker stop my-container
