@@ -9,4 +9,4 @@ desenvolvimento de software como Git, GitHub, Maven, Gradle, Npm, Yarn, GitHub
 Actions, Jenkins, Travis e Docker.
 
 ## Tecnologias utilizadas
-JavaScript, Docker
+JavaScript, Docker, Github Actions
