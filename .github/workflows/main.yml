@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build da imagem Docker
-      run: docker build /03-DevOpsBasico --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build /03-DevopsBasico --file Dockerfile --tag my-image-name:$(date +%s)
       
   test:
 
