@@ -22,6 +22,7 @@ jobs:
       run: echo "::set-output name=image_tag::my-image-$(date +%s)"
       
     - name: Build da imagem Docker
+      id: build_image
       run: |
           IMAGE_TAG=${{ steps.set_tag.outputs.image_tag }}
           echo "Usando a tag: $IMAGE_TAG"
