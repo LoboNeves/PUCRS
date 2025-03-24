@@ -1,0 +1,13 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "Exemplo de aplicação Node.js containerizada",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Daniel Neves",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
