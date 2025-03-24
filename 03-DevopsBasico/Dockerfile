@@ -2,11 +2,11 @@ FROM node:12
 
 WORKDIR /app
 
-COPY 03-DevopsBasico/app/package.json .
+COPY package.json .
 
 RUN npm install
 
-COPY 03-DevopsBasico/app .
+COPY app .
 
 EXPOSE 3000
 
