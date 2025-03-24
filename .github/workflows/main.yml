@@ -1,0 +1,27 @@
+name: Build e teste da imagem Docker
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build da imagem Docker
+      run: docker build ./. --file Dockerfile --tag my-image-name:$(date +%s)
+      
+  test:
+
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+    - name: Teste da imagem Docker
+      run: docker run my-image-name:$(date +%s)
