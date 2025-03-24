@@ -11,11 +11,22 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    outputs:
+      image_tag: ${{ steps.build_image.outputs.image_tag }}
 
     steps:
     - uses: actions/checkout@v2
+    
+    - name: Definir tag da imagem
+      id: set_tag
+      run: echo "::set-output name=image_tag::my-image-$(date +%s)"
+      
     - name: Build da imagem Docker
-      run: docker build ./03-DevopsBasico --file Dockerfile --tag my-image-name:$(date +%s)
+      run: |
+          IMAGE_TAG=${{ steps.set_tag.outputs.image_tag }}
+          echo "Usando a tag: $IMAGE_TAG"
+          docker build ./03-DevopsBasico --file ./03-DevopsBasico/Dockerfile --tag $IMAGE_TAG
+          echo "::set-output name=image_tag::$IMAGE_TAG"
       
   test:
 
@@ -24,4 +35,7 @@ jobs:
 
     steps:
     - name: Teste da imagem Docker
-      run: docker run my-image-name:$(date +%s)
+      run: |
+          IMAGE_TAG=${{ needs.build.outputs.image_tag }}
+          echo "Testando a imagem com a tag: $IMAGE_TAG"
+          docker run $IMAGE_TAG
