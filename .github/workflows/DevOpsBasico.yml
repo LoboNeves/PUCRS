@@ -1,4 +1,4 @@
-name: Build e teste da imagem Docker
+name: CI/CD DevOps Basico
 
 on:
   push:
