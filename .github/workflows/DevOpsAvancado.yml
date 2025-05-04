@@ -1,0 +1,38 @@
+name: CI/CD DevOps Avançado
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build-push-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push image
+        run: |
+          docker build \
+            --tag ghcr.io/${{ github.repository_owner }}/06-DevopsAvancado:latest .
+          docker push ghcr.io/${{ github.repository_owner }}/06-DevopsAvancado:latest
+
+      - name: Set up kubectl
+        uses: azure/setup-kubectl@v3
+        with:
+          version: '1.27.0'
+
+      - name: Deploy to Kubernetes
+        env:
+          KUBECONFIG: ${{ secrets.KUBECONFIG }}   # conteúdo do kubeconfig como secret
+        run: |
+          kubectl apply -f k8s-deployment.yaml

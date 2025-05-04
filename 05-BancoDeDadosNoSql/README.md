@@ -10,4 +10,4 @@ tolerância de partição (Partition).
 - Introdução a Bancos de dados sem esquema prévio, a Banco de dados baseado em documentos, a Banco de dados chavevalor, a Banco de dados colunar e a Banco de dados baseado em grafos.
 
 ## Tecnologias utilizadas
-MongoDB
+Javascript, MongoDB
