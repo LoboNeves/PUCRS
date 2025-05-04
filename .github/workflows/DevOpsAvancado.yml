@@ -5,26 +5,22 @@ on:
     branches: [ master ]
 
 jobs:
-  build-push-deploy:
+  build_e_teste:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
-
-      - name: Login to GitHub Container Registry
-        uses: docker/login-action@v2
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build and push image
+      - name: Definir tag da imagem
+        id: set_tag
+        run: echo "::set-output name=image_tag::my-image-$(date +%s)"
+      
+      - name: Build da imagem Docker
+        id: build_image
         run: |
-          docker build \
-            --tag ghcr.io/${{ github.repository_owner }}/PUCRS:latest .
-          docker push ghcr.io/${{ github.repository_owner }}/PUCRS:latest
+          IMAGE_TAG=${{ steps.set_tag.outputs.image_tag }}
+          echo "Usando a tag: $IMAGE_TAG"
+          docker build ./06-DevopsAvancado --file ./06-DevopsAvancado/Dockerfile --tag $IMAGE_TAG
+      
 
       - name: Set up kubectl
         uses: azure/setup-kubectl@v3
