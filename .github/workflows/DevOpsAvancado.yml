@@ -25,5 +25,5 @@ jobs:
 
       - name: Deploy to KinD
         run: |
-          kubectl apply -f k8s-deployment.yaml
+          kubectl apply -f 06-DevopsAvancado/k8s-deployment.yaml
 
