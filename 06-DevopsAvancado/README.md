@@ -1,12 +1,11 @@
-# Devops Básico
-Professores: Fabrício Veronez e Marco Aurélio Souza Mangan
+# Devops Avançado
+Professores: Cássio Trindade e Marcelo Veigas Neves
 
 ## Ementa da Disciplina
-- Introdução aos fundamentos de gerência de configuração.
-- Estudo sobre Integração contínua (CI).
-- Utilização de contêineres, ferramentas e ambientes direcionados ao
-desenvolvimento de software como Git, GitHub, Maven, Gradle, Npm, Yarn, GitHub
-Actions, Jenkins, Travis e Docker.
+- Estudo sobre entrega contínua (CD), uso de contêineres, orquestração e
+monitoramento.
+- Experimentação de ferramentas: GitHub Actions, Docker Compose
+e Kubernets e ferramentas de monitoração.
 
 ## Tecnologias utilizadas
-JavaScript, Docker, Github Actions
+Docker, Github Actions, Kubernetes
