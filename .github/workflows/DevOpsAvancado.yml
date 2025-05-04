@@ -23,8 +23,8 @@ jobs:
       - name: Build and push image
         run: |
           docker build \
-            --tag ghcr.io/${{ github.repository_owner }}/06-DevopsAvancado:latest .
-          docker push ghcr.io/${{ github.repository_owner }}/06-DevopsAvancado:latest
+            --tag ghcr.io/${{ github.repository_owner }}/PUCRS/06-DevopsAvancado:latest .
+          docker push ghcr.io/${{ github.repository_owner }}/PUCRS/06-DevopsAvancado:latest
 
       - name: Set up kubectl
         uses: azure/setup-kubectl@v3
