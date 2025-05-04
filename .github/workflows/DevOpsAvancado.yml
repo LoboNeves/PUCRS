@@ -10,38 +10,20 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Definir tag da imagem
-        id: set_tag
-        run: echo "::set-output name=image_tag::my-image-$(date +%s)"
-      
-      - name: Build da imagem Docker
-        id: build_image
-        run: |
-          IMAGE_TAG=${{ steps.set_tag.outputs.image_tag }}
-          echo "Usando a tag: $IMAGE_TAG"
-          docker build ./06-DevopsAvancado --file ./06-DevopsAvancado/Dockerfile --tag $IMAGE_TAG
-      
+      # ... suas etapas de build da imagem ...
 
-        # 1) Instala o KinD (Kubernetes in Docker) no runner
       - name: Create KinD cluster
-        uses: engineerd/[email protected]     # Setup KinD action :contentReference[oaicite:0]{index=0}
+        uses: engineerd/setup-kind@v0.6.2
         with:
-            version: v0.24.0                  # versão do kind
-            wait: 300s                       # espera o control-plane ficar pronto
+          version: v0.24.0
+          wait: 300s
 
-        # 2) O action já atualiza o kubeconfig no runner (aponta para o KinD)
       - name: Check cluster
         run: |
-            kubectl cluster-info           # deve mostrar o KinD control-plane :contentReference[oaicite:1]{index=1}
+          kubectl cluster-info
+          kubectl get nodes
 
-        # 3) Build e push da sua imagem para GHCR
-      - name: Build and push image
-        run: |
-            IMAGE=ghcr.io/loboneves/06-devopsavancado:latest
-            docker build -t $IMAGE ./06-DevopsAvancado
-            docker push $IMAGE
-
-        # 4) Deploy no cluster KinD recém‑criado
       - name: Deploy to KinD
         run: |
-            kubectl apply -f k8s-deployment.yaml
+          kubectl apply -f k8s-deployment.yaml
+
