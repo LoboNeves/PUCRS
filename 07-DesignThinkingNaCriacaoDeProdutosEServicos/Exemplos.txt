@@ -1,0 +1,42 @@
+Como essa máteria tem um conteúdo mas teórico do que prático resolvi trazer um exemplo de prática do Design Thinking,
+mostrando como pode ser aplicado de forma resumida em um cenário prático,
+seguindo as fases de Empatia, Definição, Ideação, Prototipação e Teste.
+
+# Contexto do exemplo: Aplicativo de Pedidos em Food Truck
+- Empatia
+
+    Observação rápida: clientes reclamam de filas.
+
+    Entrevista breve: “Como hoje você escolhe o prato? O que sente falta no atendimento?”
+
+- Definição
+
+    Dor principal: “Cliente perde tempo esperando.”
+
+    HMW: “Como podemos informar em tempo real o cardápio e permitir que ela já reserve o lanche?”
+
+- Ideação
+
+    QR Code para cardápio online atualizado.
+
+    Sistema de “pedido antecipado” via WhatsApp.
+
+    Touchscreen para selecionar e pagar.
+
+    Notificações avisando “seu lanche está quase pronto”.
+
+- Prototipação
+
+    Criar em PowerPoint dois slides simulando:
+
+    Tela inicial do app/QR Code mostrando o cardápio.
+
+    Passo a passo “escolha → pagamento → confirmação”.
+
+- Teste
+
+    Mostrar os slides aos clientes: pedir que façam o “pedido” no protótipo e observá-los.
+
+    Coletar feedback: “O botão de pagamento está claro?”, “É fácil encontrar o item?”
+
+    Ajustar layout (ex.: destacar preço, aumentar fonte do “Reservar agora”).
