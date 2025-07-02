@@ -7,3 +7,6 @@ Professores: Moises Brandalise e Avelino Zorzo
 - Estudo sobre segurança no desenvolvimento de software.
 - Estudo sobre os problemas mais frequentes indicados pela OWASP.
 - Estudo sobre métodos de autenticação e autorização.
+
+## Tecnologias utilizadas
+- C++
