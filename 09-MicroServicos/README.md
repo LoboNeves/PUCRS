@@ -7,4 +7,4 @@ Professores: Vinicius Soares e Luis Fernando Planella Gonzalez
 via filas e Soluções serveless.
 
 ## Tecnologias utilizadas
-- Typescript
+Typescript

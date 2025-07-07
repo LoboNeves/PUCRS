@@ -9,4 +9,4 @@ Professores: Moises Brandalise e Avelino Zorzo
 - Estudo sobre métodos de autenticação e autorização.
 
 ## Tecnologias utilizadas
-- C++
+C++
