@@ -41,6 +41,6 @@ Living Labs: ambientes reais de testes em que usuários finais participam de co-
 
 Smart Cities: cidades que usam IoT, big data e IA para melhorar qualidade de vida, mobilidade, sustentabilidade e governança. Integram sensores, plataformas digitais e participação cidadã.
 
-Conclusão
+# Conclusão
 Innovação e transformação digital são processos interdependentes que envolvem tecnologia, pessoas e ecossistemas colaborativos.
 O sucesso depende não só da adoção de novas ferramentas, mas, sobretudo, da construção de ambientes que estimulem o pensamento criativo, a cooperação entre academia, indústria e governo e o desenvolvimento humano contínuo.

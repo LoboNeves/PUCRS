@@ -1,0 +1,45 @@
+Como essa máteria tem um conteúdo mas teórico do que prático resolvi trazer um resumo do conteúdo.
+Resumo: Arquitetura de Software em Nuvem
+
+# Paradigma de Computação em Nuvem
+Self‑service sob demanda: usuários provisionam recursos (servidores, armazenamento, redes) de forma automatizada, sem intervenção humana direta do provedor.
+
+Elasticidade e escalabilidade: capacidade de ajustar dinamicamente (scale up/down ou scale out/in) recursos conforme variação de carga, garantindo performance e custo-eficiência.
+
+Modelo pay‑as‑you‑go: cobrança baseada no consumo real de recursos (CPU, memória, armazenamento, tráfego), evitando investimento inicial em infraestrutura e ociosidade.
+
+# Modelos de Serviço em Nuvem
+IaaS (Infrastructure as a Service):
+
+Fornece máquinas virtuais, redes e armazenamento básicos.
+Usuário gerencia SO, middleware, runtime e apps; provedor gerencia hardware e virtualização.
+
+PaaS (Platform as a Service):
+
+Oferece plataforma completa para desenvolvimento e deploy (bancos de dados gerenciados, runtimes, ferramentas CI/CD).
+Usuário foca no código; provedor cuida da infraestrutura e do ambiente de execução.
+
+SaaS (Software as a Service):
+
+Aplicações completas acessadas via navegador ou API.
+Provedor gerencia tudo (infra, plataforma, software); usuário apenas consome o serviço.
+
+# Principais Provedores de Nuvem Pública e Serviços
+Amazon Web Services (AWS)
+
+Exemplos: EC2 (IaaS), Lambda (FaaS), RDS (banco gerenciado), S3 (armazenamento).
+
+Microsoft Azure
+
+Exemplos: Virtual Machines, App Service, Azure Functions, Cosmos DB.
+
+Google Cloud Platform (GCP)
+
+Exemplos: Compute Engine, App Engine, Cloud Functions, BigQuery.
+
+# Arquitetura Cloud‑Native
+Containerização (Docker, Kubernetes): empacotamento leve e portável de aplicações.
+
+Microserviços: serviços independentes, focados em um único domínio de negócio, comunicando-se via APIs.
+
+Infraestrutura imutável e IaC (Infrastructure as Code): provisionamento e gestão de infra por código (Terraform, AWS CloudFormation).
