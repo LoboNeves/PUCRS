@@ -1,0 +1,23 @@
+{
+  "name": "aula-server-side",
+  "version": "1.0.0",
+  "description": "Demonstração de conhecimento da aula de arquitetura server side",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon --watch src --exec \"node src/server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Neves",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "mongodb": "^6.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
