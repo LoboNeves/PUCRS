@@ -1,0 +1,50 @@
+Como essa máteria tem um conteúdo mas teórico do que prático resolvi trazer um resumo do conteúdo.
+Resumo: Mentalidade ágil-LEAN
+
+# Conceitos-chave
+
+Lean: identificar valor, mapear fluxo, criar fluxo contínuo, sistema puxado, busca pela perfeição. Evitar desperdícios (espera, retrabalho, excesso de processo, superprodução, estoques, movimentação).
+
+Ágil: ciclos curtos, feedback frequente, adaptação, priorizar pessoas e resultados.
+
+# Aplicação a projetos
+
+Planejamento iterativo; entregas incrementais; experimentos para gerenciar risco.
+
+Métricas úteis: lead time, cycle time, throughput, valor entregue.
+
+# Pensamento sistêmico
+
+Otimizar o fluxo total, não silos. Use mapa de fluxo de valor, 5 porquês e análise de gargalos.
+
+# Comportamento & liderança
+
+Curiosidade, responsabilidade, transparência, segurança psicológica.
+
+Líder servidor: remove impedimentos e protege o time.
+
+# Práticas Lean-Agile (resumo)
+
+Kanban: gestão visual, limite de WIP, identificar gargalos.
+
+Iterações/Retrospectivas: aprendizagem contínua e ações Kaizen.
+
+Engenharia: integração contínua, testes automatizados (quando aplicável).
+
+# MVP (Mínimo Produto Viável)
+
+Menor entrega que valida hipóteses críticas com usuários reais. Objetivo: validar e aprender rapidamente.
+
+# Melhoria contínua
+
+Kaizen e ciclos PDCA / Build-Measure-Learn. Retrospectivas com ações concretas e experimentos pequenos.
+
+# Ferramentas e conceitos operacionais
+
+Just-in-Time: produzir só o necessário quando necessário.
+
+Andon: sinalização visual para problemas que exigem ação imediata.
+
+Last Planner: planejamento colaborativo de curto prazo e medição de comprometimento (PPC).
+
+Gestão visual: quadros e dashboards para transparência e tomada rápida de decisão.
