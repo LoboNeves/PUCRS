@@ -1,0 +1,18 @@
+{
+  "name": "18-qualidadeetestedesoftware",
+  "version": "1.0.0",
+  "description": "Professores: Ricardo Beck e Daniel Callegari",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.3.0",
+    "axios": "^1.12.2"
+  }
+}

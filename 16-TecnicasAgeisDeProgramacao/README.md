@@ -7,3 +7,6 @@ Professores: Daniel Wildt, Guilherme Lacerda e Michael da Costa Móra
 - Extreme programming: características, valores, práticas, as práticas na prática.
 - Test driven development (TDD): origens, codificar – testar – projetar, benefícios e armadilhas, variações, TDD na prática.
 - Behaviour driven design (BDD): origens e princípios, BDD x TDD, benefícios e armadilhas, BDD na prática.
+
+## Tecnologias utilizadas
+Java
