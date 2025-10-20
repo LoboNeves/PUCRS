@@ -1,0 +1,46 @@
+Como essa máteria tem um conteúdo mas teórico do que prático resolvi trazer um resumo do conteúdo.
+Resumo: Prototipação
+
+Prototipação em resumo é criar versões rápidas do produto para validar hipóteses, reduzir riscos e orientar decisões antes do desenvolvimento completo.
+
+# Definição & Objetivos
+
+Definição: artefato que simula funcionalidades/experiências do produto para explorar ideias e testar com usuários.
+
+Objetivos: validar hipóteses, identificar problemas de usabilidade, comunicar ideias a stakeholders e priorizar funcionalidades.
+
+# Tipos
+
+Baixa fidelidade: papel, esboços — rápido e barato.
+
+Média fidelidade: wireframes clicáveis — testa estrutura e navegação.
+
+Alta fidelidade: aparência e interações reais — próximo do produto final.
+
+# Como validar protótipos
+
+Defina hipóteses claras e critérios de sucesso.
+
+Escolha método: testes de usabilidade, guerrilla testing, A/B.
+
+Métricas: qualitativas (observações, feedback) + quantitativas (taxa de sucesso, tempo, erros, SUS).
+
+Amostra: 4–6 usuários por rodada qualitativa para descobrir a maioria dos problemas; amostras maiores para estatística.
+
+Itere: corrija, refine e re-test.
+
+# Ferramentas:
+
+Baixa fidelidade: papel, post-its, Balsamiq.
+
+Média/Alta fidelidade digitais: Figma, Adobe XD, Sketch + InVision, Axure, Framer.
+
+# Boas práticas resumidas
+
+Priorize hipóteses e limite escopo do protótipo.
+
+Teste com usuários reais, observe comportamento, não só respostas.
+
+Grave sessões e documente insights e feedbacks.
+
+Falhe rápido e aprenda.
