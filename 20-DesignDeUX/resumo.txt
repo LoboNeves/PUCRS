@@ -1,0 +1,28 @@
+Como essa máteria tem um conteúdo mas teórico do que prático resolvi trazer um resumo do conteúdo.
+Resumo: Design de UX
+
+Design de UX busca projetar experiências úteis, usáveis, desejáveis e acessíveis através de processos centrados no usuário: pesquisa, ideação, prototipação e avaliação iterativa.
+
+# Caracterização de UX
+
+Abrange: emoções, usabilidade, acessibilidade, desempenho, confiança e contexto de uso.
+
+# Design Centrado no Usuário
+
+Princípios: foco no usuário; design iterativo; evidência sobre opinião; contexto de uso; envolver stakeholders.
+
+Técnicas: personas, jornadas, mapas de empatia, task analysis, arquitetura de informação.
+
+Ferramentas: Figma, Sketch, Adobe XD, Miro, ferramentas de analytics e pesquisa.
+
+# Pesquisa — entender necessidades e capacidades
+
+Qualitativa: entrevistas semiestruturadas, observação.
+
+Quantitativa: surveys, analytics, A/B tests.
+
+# Ideação centrada no usuário
+
+Métodos: brainstorming, sketching, storyboards, design studio, wireframes.
+
+Do conceito ao protótipo: low → mid → high fidelity. Limitar escopo ao que precisa ser validado.
