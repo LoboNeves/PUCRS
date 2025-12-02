@@ -1,0 +1,21 @@
+Como essa máteria tem um conteúdo mas teórico do que prático resolvi trazer um resumo do conteúdo.
+Resumo: Empreendedorismo e novos modelos de negócios
+
+O empreendedorismo é um dos principais motores de inovação, geração de empregos e desenvolvimento econômico no Brasil e no mundo. 
+Ao longo das últimas décadas, o avanço tecnológico, a globalização e a democratização do acesso à informação facilitaram o surgimento de novos empreendedores e ampliaram as possibilidades de criação de negócios.
+
+# Lean Startup
+
+O Lean Startup é um modelo de negócio que se baseia na metodologia Lean, que é uma abordagem empírica para a gestão de projetos de software.
+O modelo revolucionou os modelos tradicionais de planejamento, que dependiam de longos estudos e planos de negócios antes mesmo do primeiro contato com o cliente. Em vez disso, o movimento propõe reduzir desperdícios, acelerar o aprendizado e testar hipóteses rapidamente.
+
+# MVP
+
+MVP é um acrônimo para Minimum Viable Product, que é uma abordagem para o processo de desenvolvimento de software. 
+É a versão mais simples e funcional de um produto que permite ao empreendedor validar suas hipóteses com o menor esforço e investimento possível.
+
+# Business Model Canvas
+
+O Business Model Canvas é uma ferramenta de planejamento de negócios que ajuda a visualizar e entender o potencial de um negócio.
+Ajudam a mapear proposição de valor, clientes, canais, receita e custos — facilitando experimentos que testam partes específicas do modelo.
+Para desenvolver MVPs e validar modelos, recomenda-se: definir hipóteses claras, escolher métricas acionáveis, buscar feedback qualitativo e quantitativo, iterar rápido e documentar aprendizados.
